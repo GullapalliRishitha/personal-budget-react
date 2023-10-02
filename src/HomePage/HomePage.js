@@ -26,7 +26,7 @@ function HomePage() {
 
     
         var color = d3.scaleOrdinal()
-            .range(["#ffcd56", "#0000ff", "#daa520", "#fd6b19", "#808080", '#dc143c', "#006400", "#85D16D", "#00ced1"]);
+            .range(["#ffcd56", "#0000ff", "#daa520", "#fd6b19", "#808080",  "#006400",'#dc143c', "#85D16D", "#00ced1"]);
 
         var pie = d3.pie()
             .value(function(d) { return d.budget; });
